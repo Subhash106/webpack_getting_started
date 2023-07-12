@@ -1,0 +1,23 @@
+{
+  "name": "webpack_getting_started",
+  "version": "1.0.0",
+  "description": "This repo is to understand the basics of webpack. It answers some of the webpack questions like what is webpack and why webpack etc.",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --config webpack.config.js --mode development",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "javascript",
+    "webpack"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "webpack": "^5.88.1",
+    "webpack-cli": "^5.1.4"
+  },
+  "dependencies": {
+    "lodash": "^4.17.21"
+  }
+}
